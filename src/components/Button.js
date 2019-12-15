@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
+import React from "react"
 
 const Button = props => {
     return (
-        <div style={styles.button}>
+        <div type="button" style={styles.onlick}>
             {props.title}
         </div>
     )
 }
+export default Button;
 
-export default Button
 const styles = {
-    button: {
-        display: 'flex', backgroundColor: 'tranparent', padding: 10, paddingLeft: 40, paddingRight: 40, color: '#00B894', borderRadius: 10, marginLeft: 10, borderStyle: 'solid', marginRight: 635, marginTop: 3,
+    onlick: {
+        display: 'flex',
+        backgroundColor: '#FF7A00',
+        padding: 16,
+        marginLeft: 5,
+        color: '#fff',
+        borderRadius: 6,
+
     }
 }

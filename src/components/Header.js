@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
+import React from "react";
 
 const Header = props => {
-    return(
-        <div style={styles.topText}>{props.title}</div> 
+    return (
+        <div style={styles.textJudul}>{props.title}</div>
     )
 }
+export default Header;
 
-export default Header
-const styles ={
-    topText: {
+const styles = {
+    textJudul: {
         alignSelf: 'center',
-         marginTop: 80, 
-         borderStyle:'solid', 
-         borderWidth: 5, 
-         color: '#fff', 
-         justifyContent: 'center', 
-         padding: 10,
-         fontWeight: 'bold'
-        }
+        marginTop: 60,
+        borderStyle: 'solid',
+        borderWidth: 5,
+         color: '#fff',
+        justifyContent: 'center',
+        padding: 10,
+        fontWeight: 'bold',
+    }
 }
